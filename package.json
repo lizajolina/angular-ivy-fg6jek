@@ -13,12 +13,17 @@
     "@angular/platform-browser-dynamic": "^12.1.4",
     "@angular/router": "^12.1.4",
     "@hapi/vision": "^6.1.0",
+    "@types/dom-mediacapture-record": "^1.0.10",
     "camerakit": "^0.4.1",
     "firebase": "^8.8.1",
     "gcloud": "^0.37.2",
     "kotlin": "^1.5.21",
+    "ogv": "^1.8.4",
     "rxjs": "^7.3.0",
+    "ts-ebml": "^2.0.2",
     "tslib": "^2.3.0",
+    "webm-media-recorder": "^0.8.3",
+    "webrtc-adapter": "^8.1.0",
     "zone.js": "^0.11.4"
   },
   "scripts": {
