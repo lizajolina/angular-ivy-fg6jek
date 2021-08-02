@@ -11,6 +11,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 
+
 // 2. Add your credentials from step 1
 const config = {
   apiKey: "AIzaSyDelhNACQSEcFFKZICjXlvxLPuJRz_h6G4",
@@ -28,4 +29,6 @@ const config = {
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+
+
 
