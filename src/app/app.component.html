@@ -1,4 +1,15 @@
-<hello name="{{ name }}"></hello>
+
+<h1>Multi-Select Dropdown of Pantry Items</h1>
 <p>
   Liza says hello world! Start editing to see some magic happen :)
 </p>
+  
+<!-- Using Items Input -->
+<ng-select
+  [items]="pantry_items"
+  bindLabel="name"
+  placeholder="Select Category"
+  appendTo="body"
+  [multiple]="true"
+  [(ngModel)]="selected">
+</ng-select>
